@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback } from 'react';
 import { motion } from 'framer-motion';
-import { Play, RotateCcw, Square, Loader2, Zap } from 'lucide-react';
+import { Play, RotateCcw, Square, Loader2 } from 'lucide-react';
 import { api } from '../lib/api';
 import { getSocket, joinOrder, leaveOrder } from '../lib/socket';
 import { HeroTrustBanner } from '../components/order/HeroTrustBanner';

@@ -1,6 +1,5 @@
 import { useEffect, useState, useCallback } from 'react';
 import { useParams } from 'react-router-dom';
-import { motion } from 'framer-motion';
 import { Loader2, Shield } from 'lucide-react';
 import { api } from '../lib/api';
 import { getSocket, joinOrder, leaveOrder } from '../lib/socket';

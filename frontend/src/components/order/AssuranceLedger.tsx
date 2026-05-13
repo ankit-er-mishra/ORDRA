@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { CheckCircle, Download, Shield, QrCode, FileText } from 'lucide-react';
+import { CheckCircle, Download, Shield, QrCode } from 'lucide-react';
 import type { LedgerEntry } from '../../lib/types';
 import { formatTime, formatDate } from '../../lib/utils';
 import { api } from '../../lib/api';
@@ -11,7 +11,7 @@ interface Props {
   orderUrl?: string;
 }
 
-export function AssuranceLedger({ entries, orderId, orderUrl }: Props) {
+export function AssuranceLedger({ entries, orderId }: Props) {
   const [downloading, setDownloading] = useState(false);
 
   const handleDownload = async () => {

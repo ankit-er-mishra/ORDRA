@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Shield, ArrowRight, CheckCircle, Eye, FileText, Zap, Lock, Activity } from 'lucide-react';
+import { Shield, ArrowRight, CheckCircle, Eye, Zap, Lock, Activity } from 'lucide-react';
 
 export function Landing() {
   return (
